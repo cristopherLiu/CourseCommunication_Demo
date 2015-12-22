@@ -11,24 +11,23 @@ import UIKit
 /**
 *  計時器，重新呼叫func
 */
-class Delay: NSObject {
-    
-    var handler:()->()={}
-    init(time:Double, handler:()->()){
-        super.init()
-        self.handler = handler
-        NSTimer.scheduledTimerWithTimeInterval(time, target: self, selector: "exec", userInfo: nil, repeats: false)
-    }
-   
-    func exec(){
-        handler()
-    }
-}
+//class Delay: NSObject {
+//    
+//    var handler:(()->())?
+//    init(time:Double, handler:()->()){
+//        super.init()
+//        self.handler = handler
+//        NSTimer.scheduledTimerWithTimeInterval(time, target: self, selector: "exec", userInfo: nil, repeats: false)
+//    }
+//   
+//    func exec(){
+//        handler?()
+//    }
+//}
 
+typealias DelayTask = (cancel : Bool) -> ()
 
-typealias Task = (cancel : Bool) -> ()
-
-func delay(time:NSTimeInterval, task:()->()) ->  Task? {
+func DelayStart(time:NSTimeInterval, task:()->()) ->  DelayTask? {
     
     func dispatch_later(block:()->()) {
         dispatch_after(
@@ -40,9 +39,9 @@ func delay(time:NSTimeInterval, task:()->()) ->  Task? {
     }
     
     var closure: dispatch_block_t? = task
-    var result: Task?
+    var result: DelayTask?
     
-    let delayedClosure: Task = {
+    let delayedClosure: DelayTask = {
         cancel in
         if let internalClosure = closure {
             if (cancel == false) {
@@ -64,6 +63,6 @@ func delay(time:NSTimeInterval, task:()->()) ->  Task? {
     return result;
 }
 
-func cancel(task:Task?) {
+func DelayCancel(task:DelayTask?) {
     task?(cancel: true)
 }

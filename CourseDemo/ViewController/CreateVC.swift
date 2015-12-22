@@ -112,16 +112,7 @@ class CreateVC: UIViewController ,UITableViewDataSource , UITableViewDelegate{
         }
     }
 
-    func done(){
-//        Event.add(
-//            questText,
-//            time: selectedTime * 60 , //秒
-//            A: ansValues[0],
-//            B: ansValues[1],
-//            C: ansValues[2],
-//            D: ansValues[3]
-//        )
-        
+    func done(){        
         API.createEvent(
             Event(
                 title: questText,

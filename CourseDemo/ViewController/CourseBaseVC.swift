@@ -59,11 +59,11 @@ class CourseBaseVC: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-//        API.setEventStart("string")
-        API.setEventAnswer("string", choice: "A")
-        API.getEventList({ events in
-            print(events)
-        })
+
+//        API.setEventAnswer("string", choice: "A")
+//        API.getEventList({ events in
+//            print(events)
+//        })
         
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }

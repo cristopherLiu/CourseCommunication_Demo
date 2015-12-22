@@ -37,43 +37,36 @@ class CourseList: UIViewController ,UITableViewDataSource , UITableViewDelegate 
         
         self.view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[tableView]|", options: [], metrics: nil, views: views))
         self.view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[tableView]|", options: [], metrics: nil, views: views))
-        
-        //註冊notification
-        
     }
     
-    var needUpdate:Bool = true
+    var delayTask:DelayTask?
     
-    func getEventListOnComplete(){
+    func getEventList(){
         
-        self.tableView.reloadData()
-//        print("getEventListOnComplete \(NSDate().toNormalString())")
+//        print("getEventList \(NSDate().toNormalString())")
         
-        if needUpdate{
-            Delay(time:1,
-                handler: {
-                API.getEventList(self.getEventListOnComplete)
+        delayTask = DelayStart(1, task: {
+            API.getEventList({
+                self.getEventList()
+                self.tableView.reloadData()
             })
-            
-//            delay(1, task: {
-//                API.getEventList(self.getEventListOnComplete)
-//            })
-        }
+        })
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        needUpdate = true
-        getEventListOnComplete()
+        
+        getEventList()
     }
     
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
-        needUpdate = false
+        DelayCancel(delayTask)
     }
     
+    //新增event
     func Add(){
         let nextPage = UINavigationController(rootViewController: CreateVC())
         self.presentViewController(nextPage, animated: true, completion: {})

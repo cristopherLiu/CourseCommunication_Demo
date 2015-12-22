@@ -21,10 +21,8 @@ class Connection: NSObject {
         self.method = method
     }
     func request(para:[String:AnyObject]?,onComplete:NSDictionary->()){
+        
         Alamofire.request(method , url, parameters: para, encoding: .JSON)
-            .responseString(completionHandler: { (r) -> Void in
-//                print("responseString:\(r.result.value)")
-            })
             .response { request, response, data, error in
                 //有error
                 if let _ = error {

@@ -13,20 +13,9 @@ var isTeacher = false
 class Event{
     static var list:[Event] = []
     
-//    class func add(title:String,time:Double,A:String,B:String,C:String,D:String){
-//        list.append(Event(title: title, time: time, A: A, B: B, C: C, D: D))
-//    }
-    
-    init(){
-        self.title = ""
-        self.time = 0
-        self.A = ""
-        self.B = ""
-        self.C = ""
-        self.D = ""
-        id = "\(random())"
+    convenience init(){
+        self.init(title: "",time: 0,A: "",B: "",C: "",D: "")
     }
-    
     
     init(title:String,time:Double,A:String,B:String,C:String,D:String){
         self.title = title
@@ -35,7 +24,7 @@ class Event{
         self.B = B
         self.C = C
         self.D = D
-        id = "\(random())"
+        id = NSUUID().UUIDString //製作uuid
     }
     
     var id:String

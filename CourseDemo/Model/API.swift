@@ -33,9 +33,9 @@ class API {
     }
     
     class func getEventList(onComplete:(()->())? = nil){
-        print(__FUNCTION__)
+
         API.getActivityList.request(nil){data in
-//            print(data)
+
             let events = (data["data"] as? NSArray ?? []).map({ d->Event in
                 let e = Event()
                 e.id = d["id"] as! String
