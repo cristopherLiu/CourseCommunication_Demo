@@ -9,14 +9,6 @@
 /* Begin PBXBuildFile section */
 		4F2010251C27F5E3004DE78C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2010241C27F5E3004DE78C /* Connection.swift */; };
 		4F2010271C27F603004DE78C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2010261C27F603004DE78C /* API.swift */; };
-		4F2010321C27F651004DE78C /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2010291C27F651004DE78C /* Delay.swift */; };
-		4F2010331C27F651004DE78C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20102B1C27F651004DE78C /* Array.swift */; };
-		4F2010341C27F651004DE78C /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20102C1C27F651004DE78C /* Int.swift */; };
-		4F2010351C27F651004DE78C /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20102D1C27F651004DE78C /* NSDate.swift */; };
-		4F2010361C27F651004DE78C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20102E1C27F651004DE78C /* String.swift */; };
-		4F2010371C27F651004DE78C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20102F1C27F651004DE78C /* Extension.swift */; };
-		4F2010381C27F651004DE78C /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2010301C27F651004DE78C /* ImageUtility.swift */; };
-		4F2010391C27F651004DE78C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2010311C27F651004DE78C /* Utility.swift */; };
 		4F55A8DA1C23F908001B1A72 /* EditQuestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F55A8D91C23F908001B1A72 /* EditQuestVC.swift */; };
 		4F84E3F41C23FEEB001C29E1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84E3F31C23FEEB001C29E1 /* Event.swift */; };
 		4F84E3F71C240D66001C29E1 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84E3F61C240D66001C29E1 /* EventCell.swift */; };
@@ -34,20 +26,20 @@
 		4FC0603A1C23E3A00057C2CB /* CourseBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC060391C23E3A00057C2CB /* CourseBaseVC.swift */; };
 		4FC0603C1C23E3EA0057C2CB /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0603B1C23E3EA0057C2CB /* CourseList.swift */; };
 		4FC060431C23EEBD0057C2CB /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC060421C23EEBD0057C2CB /* CreateVC.swift */; };
+		4FE649CC1C29032C002FB5D2 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C31C29032C002FB5D2 /* Delay.swift */; };
+		4FE649CD1C29032C002FB5D2 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C51C29032C002FB5D2 /* Array.swift */; };
+		4FE649CE1C29032C002FB5D2 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C61C29032C002FB5D2 /* Int.swift */; };
+		4FE649CF1C29032C002FB5D2 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C71C29032C002FB5D2 /* NSDate.swift */; };
+		4FE649D01C29032C002FB5D2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C81C29032C002FB5D2 /* String.swift */; };
+		4FE649D11C29032C002FB5D2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649C91C29032C002FB5D2 /* Extension.swift */; };
+		4FE649D21C29032C002FB5D2 /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649CA1C29032C002FB5D2 /* ImageUtility.swift */; };
+		4FE649D31C29032C002FB5D2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE649CB1C29032C002FB5D2 /* Utility.swift */; };
 		A2F368F5639145EB2421B10D /* Pods_CourseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9704475FC0C5275EFF4C33 /* Pods_CourseDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F2010241C27F5E3004DE78C /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Model/Connection.swift; sourceTree = "<group>"; };
 		4F2010261C27F603004DE78C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = Model/API.swift; sourceTree = "<group>"; };
-		4F2010291C27F651004DE78C /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = ../../Project/ios/Ican/Ican/Utility/Delay.swift; sourceTree = "<group>"; };
-		4F20102B1C27F651004DE78C /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		4F20102C1C27F651004DE78C /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
-		4F20102D1C27F651004DE78C /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
-		4F20102E1C27F651004DE78C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		4F20102F1C27F651004DE78C /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = ../../Project/ios/Ican/Ican/Utility/Extension.swift; sourceTree = "<group>"; };
-		4F2010301C27F651004DE78C /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageUtility.swift; path = ../../Project/ios/Ican/Ican/Utility/ImageUtility.swift; sourceTree = "<group>"; };
-		4F2010311C27F651004DE78C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = ../../Project/ios/Ican/Ican/Utility/Utility.swift; sourceTree = "<group>"; };
 		4F55A8D91C23F908001B1A72 /* EditQuestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditQuestVC.swift; path = ViewController/EditQuestVC.swift; sourceTree = "<group>"; };
 		4F84E3F31C23FEEB001C29E1 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Model/Event.swift; sourceTree = "<group>"; };
 		4F84E3F51C23FFAF001C29E1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
@@ -69,6 +61,14 @@
 		4FC060391C23E3A00057C2CB /* CourseBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseBaseVC.swift; path = ViewController/CourseBaseVC.swift; sourceTree = "<group>"; };
 		4FC0603B1C23E3EA0057C2CB /* CourseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseList.swift; path = ViewController/CourseList.swift; sourceTree = "<group>"; };
 		4FC060421C23EEBD0057C2CB /* CreateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateVC.swift; path = ViewController/CreateVC.swift; sourceTree = "<group>"; };
+		4FE649C31C29032C002FB5D2 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Utility/Delay.swift; sourceTree = "<group>"; };
+		4FE649C51C29032C002FB5D2 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		4FE649C61C29032C002FB5D2 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		4FE649C71C29032C002FB5D2 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		4FE649C81C29032C002FB5D2 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4FE649C91C29032C002FB5D2 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Utility/Extension.swift; sourceTree = "<group>"; };
+		4FE649CA1C29032C002FB5D2 /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageUtility.swift; path = Utility/ImageUtility.swift; sourceTree = "<group>"; };
+		4FE649CB1C29032C002FB5D2 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Utility/Utility.swift; sourceTree = "<group>"; };
 		8B7FA7B91A4E5216B857DDDB /* Pods-CourseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseDemo/Pods-CourseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A4DF953023D2D1FADC9C252E /* Pods-CourseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseDemo/Pods-CourseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BE9704475FC0C5275EFF4C33 /* Pods_CourseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,25 +106,13 @@
 		4F2010281C27F633004DE78C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				4F2010291C27F651004DE78C /* Delay.swift */,
-				4F20102A1C27F651004DE78C /* Extension */,
-				4F20102F1C27F651004DE78C /* Extension.swift */,
-				4F2010301C27F651004DE78C /* ImageUtility.swift */,
-				4F2010311C27F651004DE78C /* Utility.swift */,
+				4FE649C31C29032C002FB5D2 /* Delay.swift */,
+				4FE649C41C29032C002FB5D2 /* Extension */,
+				4FE649C91C29032C002FB5D2 /* Extension.swift */,
+				4FE649CA1C29032C002FB5D2 /* ImageUtility.swift */,
+				4FE649CB1C29032C002FB5D2 /* Utility.swift */,
 			);
 			name = Utility;
-			sourceTree = "<group>";
-		};
-		4F20102A1C27F651004DE78C /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				4F20102B1C27F651004DE78C /* Array.swift */,
-				4F20102C1C27F651004DE78C /* Int.swift */,
-				4F20102D1C27F651004DE78C /* NSDate.swift */,
-				4F20102E1C27F651004DE78C /* String.swift */,
-			);
-			name = Extension;
-			path = ../../Project/ios/Ican/Ican/Utility/Extension;
 			sourceTree = "<group>";
 		};
 		4F84E3F21C23FEC1001C29E1 /* Model */ = {
@@ -197,6 +185,18 @@
 				4F84E4081C27D6E3001C29E1 /* ProgressBar.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		4FE649C41C29032C002FB5D2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FE649C51C29032C002FB5D2 /* Array.swift */,
+				4FE649C61C29032C002FB5D2 /* Int.swift */,
+				4FE649C71C29032C002FB5D2 /* NSDate.swift */,
+				4FE649C81C29032C002FB5D2 /* String.swift */,
+			);
+			name = Extension;
+			path = Utility/Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,28 +322,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F2010371C27F651004DE78C /* Extension.swift in Sources */,
 				4F84E4001C241ED1001C29E1 /* Animator.swift in Sources */,
 				4F84E3F41C23FEEB001C29E1 /* Event.swift in Sources */,
+				4FE649CE1C29032C002FB5D2 /* Int.swift in Sources */,
 				4FC0603C1C23E3EA0057C2CB /* CourseList.swift in Sources */,
 				4F84E3FE1C241E67001C29E1 /* CustomPresentationController.swift in Sources */,
-				4F2010351C27F651004DE78C /* NSDate.swift in Sources */,
 				4F84E4061C27A7C4001C29E1 /* CreateQuestCell3.swift in Sources */,
 				4F84E4041C27A794001C29E1 /* CreateQuestCell1.swift in Sources */,
 				4FC060431C23EEBD0057C2CB /* CreateVC.swift in Sources */,
-				4F2010341C27F651004DE78C /* Int.swift in Sources */,
-				4F2010391C27F651004DE78C /* Utility.swift in Sources */,
 				4F84E3F71C240D66001C29E1 /* EventCell.swift in Sources */,
-				4F2010331C27F651004DE78C /* Array.swift in Sources */,
-				4F2010361C27F651004DE78C /* String.swift in Sources */,
 				4F84E3F91C241511001C29E1 /* MyButton.swift in Sources */,
+				4FE649CD1C29032C002FB5D2 /* Array.swift in Sources */,
 				4FC060271C23E34F0057C2CB /* AppDelegate.swift in Sources */,
 				4F2010251C27F5E3004DE78C /* Connection.swift in Sources */,
+				4FE649D21C29032C002FB5D2 /* ImageUtility.swift in Sources */,
 				4FC0603A1C23E3A00057C2CB /* CourseBaseVC.swift in Sources */,
+				4FE649CF1C29032C002FB5D2 /* NSDate.swift in Sources */,
+				4FE649D11C29032C002FB5D2 /* Extension.swift in Sources */,
+				4FE649CC1C29032C002FB5D2 /* Delay.swift in Sources */,
 				4F84E4021C27A55D001C29E1 /* CreateQuestCell2.swift in Sources */,
 				4F84E4091C27D6E3001C29E1 /* ProgressBar.swift in Sources */,
-				4F2010381C27F651004DE78C /* ImageUtility.swift in Sources */,
-				4F2010321C27F651004DE78C /* Delay.swift in Sources */,
+				4FE649D31C29032C002FB5D2 /* Utility.swift in Sources */,
+				4FE649D01C29032C002FB5D2 /* String.swift in Sources */,
 				4F2010271C27F603004DE78C /* API.swift in Sources */,
 				4F55A8DA1C23F908001B1A72 /* EditQuestVC.swift in Sources */,
 			);

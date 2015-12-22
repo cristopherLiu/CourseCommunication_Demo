@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "790C54E8D2E33DCBC11F302A014F9AD5937AF4BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "790C54E8D2E33DCBC11F302A014F9AD5937AF4BE" : 0,
+    "D2AAA19373FAF0B2E465A8C2DEF60CCB358C6BAD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B9846E9-F208-4803-BA38-3A61F4535308",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "790C54E8D2E33DCBC11F302A014F9AD5937AF4BE" : "CourseDemo\/",
+    "D2AAA19373FAF0B2E465A8C2DEF60CCB358C6BAD" : "Project\/ios\/Ican\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CourseDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CourseDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cristopherLiu\/CourseCommunication_Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "790C54E8D2E33DCBC11F302A014F9AD5937AF4BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.168.211.211:8081\/git\/ICan.ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2AAA19373FAF0B2E465A8C2DEF60CCB358C6BAD"
+    }
+  ]
+}
